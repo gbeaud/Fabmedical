@@ -10,3 +10,5 @@ for i in {1..250}; do
         --ssl --sslAllowInvalidCertificates \
         --eval 'db.sessions.insert({"title":"Perf Test"})' &
 done
+
+# end of script
