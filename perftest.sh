@@ -11,4 +11,4 @@ for i in {1..250}; do
         --eval 'db.sessions.insert({"title":"Perf Test"})' &
 done
 
-# end of script
+# end of script,
